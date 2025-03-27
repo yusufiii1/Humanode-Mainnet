@@ -1,36 +1,59 @@
-# Humanode-Mainnet
-Step-by-step guide to install and run a Humanode Mainnet Node. Includes setup, configuration, and troubleshooting tips. 🚀
+## 🚀 Installing Humanode Mainnet Node
 
+This guide explains how to set up and run the **Humanode Mainnet Node** remotely.
 
-• Hardware Requirements
-4 CPU
-4 GB RAM
-160 GB Disk
-100 Mbps internet connection
-Ubuntu 20.04 or 22.04
+---
 
-• Launcher Download - Start
-Launcher Download Link : https://launcher.humanode.io
+## 📚 Steps Overview:
+1. [System Requirements](#system-requirements)
+2. [Creating a Virtual Machine](#creating-a-virtual-machine)
+3. [Installing Humanode Mainnet](#installing-humanode-mainnet)
+4. [Configuring and Launching the Node](#configuring-and-launching-the-node)
 
-After downloading and launching the app, you will see the Welcome screen with the Create Workspace button. 
+---
 
-![image](https://github.com/user-attachments/assets/ffa7c485-7c69-468e-aa75-4aa0680c59c7)
+## ⚙️ System Requirements
 
-After pressing Create Workspace, you will be asked to choose where to install the node. There are two ways of installing it:
+Before proceeding, ensure that your system meets the following requirements:
 
-• [Start Locally](https://gitbook.humanode.io/mainnet-guide/launcher/installing-the-workspace-locally) - this allows you to install and run the node from your local machine (the same system the Desktop App itself runs at.
+### 🖥️ **Hardware Requirements:**
+- **CPU:** 4 vCPU or higher  
+- **RAM:** Minimum 8 GB  
+- **Storage:** At least 100 GB SSD  
+- **Network:** Stable internet connection with at least 10 Mbps upload/download  
 
-• [Start Remotely](https://gitbook.humanode.io/mainnet-guide/launcher/installing-the-workspace-remotely) - this allows you to connect the app to a remote system via SSH and run the node there.
+### 📡 **Supported Operating Systems:**
+- ✅ Ubuntu 22.04 
+- ✅ Ubuntu 20.04  (Recommended) 
 
-![image](https://github.com/user-attachments/assets/d1b1cde8-d886-4b31-b080-875e61149834)
+---
 
-Installing the Workspace Remotely
-This option allows running the node on a remote system via an SSH connection.
+## 🖥️ Creating a Virtual Machine
 
-You can use any remote system.
+Skip this step if you already have a VM ready. Ensure that your system runs **Ubuntu 22.04** or **Ubuntu 20.04**.
 
-This guide will walk you through the following steps:
+---
 
-• Creating a Virtual Machine in the cloud with a cloud provider you prefer, and
+## ⚙️ Installing Humanode Mainnet
 
-• Connecting the Humanode Launcher to Virtual Machine.
+1. Open the **Humanode Launcher**.
+2. Select **Mainnet** and press **Install**.
+
+![Humanode Launcher - Mainnet](https://example.com/humanode-launcher.png)
+
+3. Wait for the installation to complete (takes a few minutes).
+4. When the progress bar reaches 100%, the **Home screen** will appear, indicating a successful installation.
+
+---
+
+## 🎯 Configuring and Launching the Node
+
+After installation:
+- Follow the on-screen instructions to configure your node.
+- Once configured, start the node and monitor its status from the Home screen.
+
+![Node Configuration](https://example.com/node-config.png)
+
+---
+
+✅ Ready to run your **Humanode Mainnet Node**! 🎉
